@@ -1,13 +1,13 @@
 # Triangle-Counting-in-Data-Streams
 
-We present two space bounded random sampling algorithms 
+We implement two space bounded random sampling algorithms 
 that compute an approximation of the number of triangles
 in an undirected graph given as a stream of edges. Our first
 algorithm does not make any assumptions on the order of
 edges in the stream. It uses space that is inversely related to
 the ratio between the number of triangles and the number of
 triples with at least one edge in the induced subgraph, and
-constant expected update time per edge. Our second algorithm
+constant expected update time per edge. The second algorithm
 is designed for incidence streams (all edges incident to
 the same vertex appear consecutively). It uses space that is
 inversely related to the ratio between the number of triangles
